@@ -1,4 +1,4 @@
-import Header from './Header';
+import Header from './header';
 import Portfolio from './Portfolio';
 import Footer from './Footer';
 
