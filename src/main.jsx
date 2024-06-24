@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -7,9 +7,9 @@ import './index.css';
 import App from './App';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import Contact from './components/Contact/';
 import Resume from './components/Resume';
-import ErrorPage from './components/ErrorPage'
+import ErrorPage from './components/ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -41,5 +41,5 @@ const router = createBrowserRouter([
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router = {router} />
+  <RouterProvider router = {router}/>
 );
