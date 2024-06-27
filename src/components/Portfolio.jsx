@@ -1,52 +1,104 @@
 
 export default function Portfolio() {
   return (
-    <div className="row">
+    <div className="row row-cols-1 row-cols-md-2 g-4">
 
-      <div className="col-sm-6">
-        <div className="card">
+      <div className="col">
+        <div className="card my-4 h-100">
           <img className="card-img-top" src="./src/assets/images/NDB.png" alt="Card image cap"></img>
             <div className="card-body">
-              <h5 className="card-title">N.D.B.</h5>
+              <h3 className="card-title">N.D.B.</h3>
               <p className="card-text">Multi-Page web application that utilizes NASA's API.</p>
-              <a href="https://austin-marlatt.github.io/nasa-data-base/" className="btn btn-primary">Visit</a>
-            </div>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">
+                  <a href="https://austin-marlatt.github.io/nasa-data-base/" className="btn btn-lg btn-outline-success">Visit</a>
+                  <a href="https://github.com/Austin-Marlatt/nasa-data-base" className="btn gitHub-btn"><img src="/src\assets\images\github-mark.png" width="45px"></img></a>
+                </small>
+              </div>
         </div>
       </div>
 
-      <div className="col-sm-6">
-        <div className="card">
-          <img className="card-img-top" src="./src/assets/images/NDB.png" alt="Card image cap"></img>
+      <div className="col">
+        <div className="card my-4 h-100">
+          <img className="card-img-top" src="/src\assets\images\Session.png" alt="Card image cap"></img>
             <div className="card-body">
-              <h5 className="card-title">N.D.B.</h5>
-              <p className="card-text">Multi-Page web application that utilizes NASA's API.</p>
-              <a href="https://austin-marlatt.github.io/nasa-data-base/" className="btn btn-primary">Visit</a>
-            </div>
+              <h3 className="card-title">Session</h3>
+              <p className="card-text">Session is a music-based social media platform currently using the Spotify API and music library.</p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">
+                  <a href="https://session-development-34dcb90af5d9.herokuapp.com/login" className="btn btn-lg btn-outline-success">Visit</a>
+                  <a href="https://github.com/Austin-Marlatt/session" className="btn gitHub-btn"><img src="/src\assets\images\github-mark.png" width="45px"></img></a>
+                </small>
+              </div>
         </div>
       </div>
 
-      <div className="col-sm-6">
-        <div className="card">
-          <img className="card-img-top" src="./src/assets/images/NDB.png" alt="Card image cap"></img>
+      <div className="col">
+        <div className="card my-4 h-100">
+          <img className="card-img-top" src="/src\assets\images\NoteTaker.png" alt="Card image cap"></img>
             <div className="card-body">
-              <h5 className="card-title">N.D.B.</h5>
-              <p className="card-text">Multi-Page web application that utilizes NASA's API.</p>
-              <a href="https://austin-marlatt.github.io/nasa-data-base/" className="btn btn-primary">Visit</a>
-            </div>
-        </div>
+              <h3 className="card-title">Note Taker</h3>
+              <p className="card-text">A web application that allows you to create, save, and delete notes.</p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">
+                  <a href="https://note-taker-app-bb8a4b2e140b.herokuapp.com/notes" className="btn btn-lg btn-outline-success">Visit</a>
+                  <a href="https://github.com/Austin-Marlatt/Note_Taker" className="btn gitHub-btn"><img src="/src\assets\images\github-mark.png" width="45px"></img></a>
+                </small>
+              </div>
+        </div> 
       </div>
 
-      <div className="col-sm-6">
-        <div className="card">
-          <img className="card-img-top" src="./src/assets/images/NDB.png" alt="Card image cap"></img>
+      <div className="col">
+        <div className="card my-4 h-100">
+          <img className="card-img-top" src="/src\assets\images\StudyGuide.png" alt="Card image cap"></img>
             <div className="card-body">
-              <h5 className="card-title">N.D.B.</h5>
-              <p className="card-text">Multi-Page web application that utilizes NASA's API.</p>
-              <a href="https://austin-marlatt.github.io/nasa-data-base/" className="btn btn-primary">Visit</a>
+              <h3 className="card-title">Coding Study Guide</h3>
+              <p className="card-text"> This web application helps me keep all of my notes on HTML, CSS, Git, and JavaScript in a single place. While also teaching me the basics on these topics that I will use through out the boot camp.</p>
+            </div>
+            <div className="card-footer">
+              <small className="text-muted">
+                <a href="https://austin-marlatt.github.io/prework-study-guide/" className="btn btn-lg btn-outline-success">Visit</a>
+                <a href="https://github.com/Austin-Marlatt/prework-study-guide" className="btn gitHub-btn"><img src="/src\assets\images\github-mark.png" width="45px"></img></a>
+              </small>
             </div>
         </div>
       </div>
       
+      <div className="col">
+        <div className="card my-4 h-100">
+          <img className="card-img-top" src="/src\assets\images\JavaScriptQuiz.png" alt="Card image cap"></img>
+            <div className="card-body">
+              <h3 className="card-title">JavaScript Quiz</h3>
+              <p className="card-text">A timed multiple choice quiz based on JavaScript with savable highscores.</p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">
+                  <a href="https://austin-marlatt.github.io/JavaScript-Quiz/" className="btn btn-lg btn-outline-success">Visit</a>
+                  <a href="https://github.com/Austin-Marlatt/JavaScript-Quiz" className="btn gitHub-btn"><img src="/src\assets\images\github-mark.png" width="45px"></img></a>
+                </small>
+              </div>
+            </div>
+        </div>
+
+      <div className="col">
+        <div className="card my-4 h-100">
+          <img className="card-img-top" src="/src\assets\images\DailyPlanner.png" alt="Card image cap"></img>
+            <div className="card-body">
+              <h3 className="card-title">Daily Planner</h3>
+              <p className="card-text">A Web Application designed to work as a daily planner.</p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">
+                  <a href="https://austin-marlatt.github.io/Daily-Planner/" className="btn btn-lg btn-outline-success">Visit</a>
+                  <a href="https://github.com/Austin-Marlatt/Daily-Planner" className="btn gitHub-btn"><img src="/src\assets\images\github-mark.png" width="45px"></img></a>
+                </small>
+              </div>
+            </div>
+        </div>
+
     </div>
   );
 }

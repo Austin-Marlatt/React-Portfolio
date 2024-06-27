@@ -7,6 +7,8 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+  padding-top: 40px;
+  padding-bottom: 45px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -28,6 +30,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #1c1c1e;
 }
 
 h1 {
@@ -37,7 +40,7 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 1px solid #03045E;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -54,7 +57,43 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: dark) {
+.footer {
+  background-color: #c6421a;
+}
+
+.navbar {
+  background-color: #c6421a;
+  padding-left: 8px;
+  font-size: 20px;
+}
+.header {
+  margin-bottom: 15px;
+}
+
+.mainText {
+  color: #ECE2D0;
+  font-size: 28px;
+}
+
+#title {
+  font-size: 35px;
+}
+
+.gitHub-btn {
+  padding: 1px;
+  margin-left: 15px;
+}
+
+.jumbotron {
+  text-align: left;
+  padding-top: 25px;
+}
+
+.card {
+  background-color: #c7c8ce;
+}
+
+@media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;

@@ -6,16 +6,24 @@ export default function Nav() {
       <Navbar
         Links={[
           <Link key={1} className="nav-link text-light" to='/'>
-            About Me
+            <li className="nav-item">
+            <a className="nav-link" href="#">About</a>
+            </li>
           </Link>,
-          <Link key={2} className="nav-link text-light" to='/Portfolio'>
-            Portfolio
+          <Link key={2} className="nav-link text-light" href="#" to='/Portfolio'>
+            <li className="nav-item">
+            <a className="nav-link" href="#">Portfolio</a>
+            </li>
           </Link>,
-          <Link key={3} className="nav-link text-light" to='/Contact'>
-            Contact
+          <Link key={3} className="nav-link text-light" href="#" to='/Contact'>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Contact</a>
+            </li>
           </Link>,
-          <Link key={4} className="nav-link text-light" to='/Resume'>
-            Resume
+          <Link key={4} className="nav-link text-light" href="#" to='/Resume'>
+            <li className="nav-item">
+            <a className="nav-link" href="#">Resume</a>
+            </li>
           </Link>,
         ]}
       />

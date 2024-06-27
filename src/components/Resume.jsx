@@ -1,9 +1,8 @@
 export default function Resume() {
   return(
     <div>
-
       <div>
-        <h3>I am proficient in the MERN Development stack.</h3>
+        <h3 className="mainText">I am proficient in the MERN Development stack:</h3>
         <ul className="list-group">
           <li className="list-group-item">MongoDB</li>
           <li className="list-group-item">Express</li>
@@ -11,9 +10,9 @@ export default function Resume() {
           <li className="list-group-item">Node</li>
         </ul>
       </div>
-
+      <br></br>
       <div>
-        <h3>
+        <h3 className="mainText">
           Languages and Software:
         </h3>
         <ul className="list-group">
@@ -24,8 +23,10 @@ export default function Resume() {
           <li className="list-group-item">SQL</li>
         </ul>
       </div>
-      
-      <p>Download my Resume <a href="" download="Austin-Marlatt-Resume.pdf">here.</a></p>
+      <br></br>
+      <div>
+        <h4 className="mainText">Download my Resume <a href="src\assets\resume\Austin-Marlatt-Resume.pdf" download="Austin-Marlatt-Resume.pdf">Here.</a></h4>
+      </div>
     </div>
   );
 }

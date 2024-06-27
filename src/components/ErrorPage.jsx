@@ -1,9 +1,9 @@
 export default function Error() {
   return(
     <div>
-      <p>
+      <h2>
         An error has occurrred while trying to load the page.
-      </p>
+      </h2>
     </div>
   );
 }
