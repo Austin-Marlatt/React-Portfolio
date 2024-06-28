@@ -47,7 +47,7 @@ export default function Contact() {
         <hr className="my-4"></hr>
         <div className="form-group row my-3">
           <div className="col-sm-2">
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-contact">
               Submit
             </button>
           </div>

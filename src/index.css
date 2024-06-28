@@ -1,11 +1,11 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #780206;
 
   padding-top: 40px;
   padding-bottom: 45px;
@@ -27,10 +27,14 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  font-family: "Roboto Slab", serif;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #1c1c1e;
+  background: #780206;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 h1 {
@@ -38,33 +42,36 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid #03045E;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgba(255, 255, 255, 0.918);
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px #eeeeee60;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #646363 0%, #535353 51%, #777777 100%);
+  }
+
+.btn:hover {
+  background-position: right center;
 }
 
+
 .footer {
-  background-color: #c6421a;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+
 }
 
 .navbar {
-  background-color: #c6421a;
-  padding-left: 8px;
-  font-size: 20px;
+  padding-left: 10px;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 .header {
   margin-bottom: 15px;
@@ -72,27 +79,31 @@ button:focus-visible {
 
 .mainText {
   color: #ECE2D0;
-  font-size: 28px;
+  font-size: 25px;
 }
 
 #title {
+  color: #ECE2D0;
   font-size: 35px;
 }
 
 .gitHub-btn {
   padding: 1px;
-  margin-left: 15px;
+  margin-left: 40px;
 }
 
 .jumbotron {
   text-align: left;
-  padding-top: 25px;
+  padding-top: 0px;
 }
 
 .card {
-  background-color: #c7c8ce;
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 }
 
+.card-footer {
+  background: rgba(0, 0, 0, 0.692);
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

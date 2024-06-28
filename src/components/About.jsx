@@ -3,7 +3,7 @@ export default function About() {
   <div className="jumbotron jumbotron-fluid">
     <div className="container">
       <h1 className="display-6 mainText my-3">About Me:</h1>
-      <img className="lead my-3" id="headShotPhoto" src="./src/assets/images/Austin-Marlatt-Headshot.png" alt="Headshot" height="210px" width="200px"></img>
+      <img className="lead my-3" id="headShotPhoto" src="images\Austin-Marlatt-Headshot.png" alt="Headshot" height="210px" width="200px"></img>
       <hr className="my-4 br-light"></hr>
       <p className="mainText my-3">Hello and welcome to my Portfolio Website!</p>
       <p className="mainText my-3">My name is Austin Marlatt-Foss, and I am currently a student at the University of Oregon's Fullstack Web Development Program. During this program I have learned valuable tools at becoming a Web Developer and would love the opportunity to use these skills on your project.</p>
