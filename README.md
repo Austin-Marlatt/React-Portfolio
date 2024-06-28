@@ -1,5 +1,5 @@
 # React Portfolio
-![GitHub license](https://img.shields.io/badge/license-MIT-purple.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-purple.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/5d2362cf-f616-411e-a6e0-286a70cdefd0/deploy-status)](https://app.netlify.com/sites/austin-marlatt-portfolio/deploys)
 
 ## Description 
 
