@@ -17,7 +17,7 @@ This Web Application serves as a portfolio and Resume. It utilizes React /  Vite
 
 Simply Navigate to the website to see my portfolio.
 ##
-![image](https://github.com/Austin-Marlatt/React-Portfolio/blob/main/src/assets/images/Portfolio.png)
+![image](https://github.com/Austin-Marlatt/React-Portfolio/blob/main/public/images/PortfolioDemo.png)
 
 ## Questions
 
