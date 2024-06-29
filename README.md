@@ -15,7 +15,7 @@ This Web Application serves as a portfolio and Resume. It utilizes React /  Vite
 
 ## Usage
 
-Simply Navigate to the website to see my portfolio.
+[Simply Navigate to the website to see my portfolio.](https://austin-marlatt-portfolio.netlify.app/Portfolio)
 ##
 ![image](https://github.com/Austin-Marlatt/React-Portfolio/blob/main/public/images/PortfolioDemo.png)
 
