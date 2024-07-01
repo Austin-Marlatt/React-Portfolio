@@ -1,3 +1,4 @@
+// A page to render for the user if the current component is not loading, or has errored
 export default function Error() {
   return(
     <div>

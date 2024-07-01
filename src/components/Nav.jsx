@@ -1,3 +1,5 @@
+// Component for the Nav section in the header utilizes bootstrap and custom CSS styling for dynamic sizing and appearence
+// Utilizes the link module to render the Navigation links
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 

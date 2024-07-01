@@ -1,3 +1,4 @@
+// Component for the footer, contains 3 links to my Github, LinkedIn, and Stack Overflow accounts.
 export default function footer() {
   return (
     <div className="footer fixed-bottom text-light">

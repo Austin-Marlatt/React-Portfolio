@@ -1,3 +1,4 @@
+// Component for my 'about' section, utilizes bootstrap classes and custom CSS
 export default function About() {
   return(
   <div className="jumbotron jumbotron-fluid">

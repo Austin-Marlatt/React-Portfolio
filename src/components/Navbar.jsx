@@ -1,3 +1,4 @@
+// Component that contains the navigation links and the title card for the webpage
 export default function Navbar({ Links }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top">

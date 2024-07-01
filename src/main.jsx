@@ -1,3 +1,6 @@
+// Main handles how the react application will render, imports relevnant stlying files and components.
+// Utilizes the CreateBrowserRouter module to change the url based on what page we want to be on and dynamically load the matching component
+
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 

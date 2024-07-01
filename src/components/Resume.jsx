@@ -1,3 +1,4 @@
+// component that handles the resume page, Displays my current skillset and has a downloadable option for my resume
 export default function Resume() {
   return(
     <div>

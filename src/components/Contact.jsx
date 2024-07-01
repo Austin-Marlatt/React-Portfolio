@@ -1,3 +1,5 @@
+// Component for the 'Contact' section, has interactive fields and a submit button, although I do not have a database set up for this website
+// 
 export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
