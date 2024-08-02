@@ -8,33 +8,33 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 import App from './App';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
 import Contact from './components/Contact/';
-import Resume from './components/Resume';
-import ErrorPage from './components/ErrorPage';
+import Skills from './pages/Skills';
+import ErrorPage from './pages/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
-    errorElement: <ErrorPage />,
+    element: <App/>,
+    errorElement: <ErrorPage/>,
     children: [
       {
         index: true,
-        element: <About />,
+        element: <About/>,
       },
       {
         path: 'Portfolio',
-        element: <Portfolio />,
+        element: <Portfolio/>,
       },
       {
         path: 'Contact',
-        element: <Contact />,
+        element: <Contact/>,
       },
       {
-        path: 'Resume',
-        element: <Resume />,
+        path: 'Skills',
+        element: <Skills/>,
       },
     ],
   },

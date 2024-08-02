@@ -9,8 +9,8 @@ function App() {
   return (
     <>
         <Nav/>
-        <Outlet />
-        <Footer />
+        <Outlet/>
+        <Footer/>
     </>
   )
 }
